@@ -158,3 +158,32 @@ div{
     text-align: center;
   }
   
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Hellokitty {
+    width: 30%; 
+}
+
+.Hellokitty img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1; 
+}
+
+.gifsourire {
+  width: 30%; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+.gifsourire img {
+  max-width: 100%;
+  height: auto;
+}
