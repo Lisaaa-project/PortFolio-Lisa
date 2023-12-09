@@ -9,6 +9,18 @@ h1 {
     text-align: center;
 }
 
+h2 {
+  text-align: center;
+  margin-top: -40px;
+  font-family: 'Dancing Script';
+}
+
+section p{
+  font-family: 'Dancing Script';
+  text-align: center;
+  font-size: 25px;
+}
+
 body {
     background:rgb(238, 141, 189);
     color: #fff;
@@ -26,6 +38,19 @@ body.night-mode {
     margin-top: -90px;
     font-family: sans-serif;
     transition: all 0.4s ease;
+  }
+
+  hr{
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
   }
 
 .container {
@@ -87,7 +112,6 @@ section h2 {
     border-radius: 23px;
     cursor: pointer;
     transition: all 0.4s ease;
-    select: none;
   }
   .button:hover {
     background: #f4b7f4;
